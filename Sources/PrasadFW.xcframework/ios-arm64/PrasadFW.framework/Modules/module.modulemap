@@ -1,0 +1,6 @@
+framework module PrasadFW {
+  umbrella header "PrasadFW.h"
+  export *
+
+  module * { export * }
+}

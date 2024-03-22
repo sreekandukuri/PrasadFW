@@ -1,0 +1,76 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrasadFW",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FW",
+        "printedName": "FW",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FW",
+                "printedName": "PrasadFW.FW",
+                "usr": "s:8PrasadFW0B0V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8PrasadFW0B0VACycfc",
+            "mangledName": "$s8PrasadFW0B0VACycfc",
+            "moduleName": "PrasadFW",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "helloWorld",
+            "printedName": "helloWorld()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrasadFW0B0V10helloWorldyyF",
+            "mangledName": "$s8PrasadFW0B0V10helloWorldyyF",
+            "moduleName": "PrasadFW",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8PrasadFW0B0V",
+        "mangledName": "$s8PrasadFW0B0V",
+        "moduleName": "PrasadFW",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
